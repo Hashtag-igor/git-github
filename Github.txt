@@ -1,0 +1,31 @@
+//Commits
+
+Commit: Dar commit é criar uma nova versão do seu software;
+
+________
+//Branch
+
+Origin: é a origem, repositorio Local. É um backup que fica na sua máquina;
+
+Master: é a Ramificação Principal. Como se fosse o tronco de uma arvore.
+
+*Evite commitar tudo na Branch Master.
+*Quando você tiver alguma atualização para fazer (ex um site), não faça na branch Master, porque caso dê um erro, você está passando ele para o ramo principal do seu projeto.
+Porque caso você veja que uma nova branch que for criada não deu certo, você pode remove-lá do seu projeto, sem afetar a branch Master (o tronco do seu projeto).
+*O ideal para projetos grandes é você criar uma nova branch (por exemplo o designer do seu projeto) e commitar atualizações para essa nova branch.
+*Quando você finalizar por completo, ai sim você pode fazer a junção dessa branch criada, com a branch Master.
+*Você faz essas junções de branch's novas + a master, com o "merge".
+
+*O ideal é você fazer a estrutura basica/fundamental do seu projeto e coloca-lá como Master.
+________
+//GitHub Desktop
+
+file > new repository > create a new repository (Aqui você estará criando um repositorio na sua maquina).
+
+publish repository > Publish repository (Aqui você estará enviando seu repositorio local, para a nuvem, no github).
+
+Nome: first commit (recomendado ser em inglês);
+observação: Não é obrigatório;
+
+ReadMe.md: É como se fosse um manual de intruções do seu codigo;
+## = É para simbolizar titulos dentro de uma ReadMe;
