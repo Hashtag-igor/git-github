@@ -27,6 +27,16 @@ ________
 
 *Fazendo o Merge = colocar inicialmente a branch que você vai fazer o merge (aonde eu quero colocar o conteúdo). ex: quero passar o conteúdo da branch styles, para a branch master.. o merge será na branch master.  
 branch > merge into current branch.. > merge into master + escolhe qual será a merge que vai ir pro master (fica assim ao terminar de selecionar: Merge "nome da branch que será passada" into "branch que receberá" ou This will merge 2 commits from "nome da branch que será passada" into "nome da branch que receberá o conteúdo da outra branch").
+
+Se ao fazer o Merge de duas branch's conflito entre elas, por ambos as branch's terem alterações diferentes em estruturas iguais do projeto, aparecerá a seguinte mensagem:
+    There will be 1 conflicted file when merging "nome da branch que passará o conteúdo para a outra" into "nome da branch que receberá o conteúdo da outra"
+Você pode mesmo assim clicar em continuar, porque após fazer isso, o Github Desktop mostrará aonde está o erro das duas branch's, ele mostra de forma clara e facil. A partir disso, você pode alterar o conflito e resolver o erro.
+Quando você for na opção de fazer as alterações de conflito, aparecerá 4 opções:
+    Aceitar mudança atual (prevalece o conteúdo da master)
+    Aceitar a mudança de entrada (o conteúdo de conflito da branch "filho" alterará o da "master")
+    Aceitar as duas alterações
+    Comparar as mudanças (vai colocar as duas branch's lado a lado para você ver melhor)
+Após escolher e aceitar uma das mudanças, o Github Desktop removerá a mensagem de conflito e deixará você continuar a merge.
 _________
 ReadMe.md: É como se fosse um manual de intruções do seu codigo;
 ## = É para simbolizar titulos dentro de uma ReadMe;
