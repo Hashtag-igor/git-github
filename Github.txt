@@ -19,14 +19,14 @@ Porque caso você veja que uma nova branch que foi criada não deu certo, você 
 ________
 //GitHub Desktop
 
-file > new repository > create a new repository (Aqui você estará criando um repositorio na sua maquina).
+*Criando Repositorio Local = file > new repository > create a new repository (Aqui você estará criando um repositorio na sua maquina).
 
-publish repository > Publish repository (Aqui você estará enviando seu repositorio local, para a nuvem, no github).
+*Criando Repositorio na Nuvem = publish repository > Publish repository (Aqui você estará enviando seu repositorio local, para a nuvem, no github).
 
-branch > new branch > create a branch (Aqui você vai estar criando uma nova Branch).
+*Criando Nova Branch = branch > new branch > create a branch (Aqui você vai estar criando uma nova Branch).
 
-
-
+*Fazendo o Merge = colocar inicialmente a branch que você vai fazer o merge (aonde eu quero colocar o conteúdo). ex: quero passar o conteúdo da branch styles, para a branch master.. o merge será na branch master.  
+branch > merge into current branch.. > merge into master + escolhe qual será a merge que vai ir pro master (fica assim ao terminar de selecionar: Merge "nome da branch que será passada" into "branch que receberá" ou This will merge 2 commits from "nome da branch que será passada" into "nome da branch que receberá o conteúdo da outra branch").
 _________
 ReadMe.md: É como se fosse um manual de intruções do seu codigo;
 ## = É para simbolizar titulos dentro de uma ReadMe;
