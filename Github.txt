@@ -1,7 +1,6 @@
 //Commits
 
 Commit: Dar commit é criar uma nova versão do seu software;
-
 ________
 //Branch
 
@@ -11,12 +10,12 @@ Master: é a Ramificação Principal. Como se fosse o tronco de uma arvore.
 
 *Evite commitar tudo na Branch Master.
 *Quando você tiver alguma atualização para fazer (ex um site), não faça na branch Master, porque caso dê um erro, você está passando ele para o ramo principal do seu projeto.
-Porque caso você veja que uma nova branch que for criada não deu certo, você pode remove-lá do seu projeto, sem afetar a branch Master (o tronco do seu projeto).
+Porque caso você veja que uma nova branch que foi criada não deu certo, você pode remove-lá do seu projeto, sem afetar a branch Master.
 *O ideal para projetos grandes é você criar uma nova branch (por exemplo o designer do seu projeto) e commitar atualizações para essa nova branch.
-*Quando você finalizar por completo, ai sim você pode fazer a junção dessa branch criada, com a branch Master.
+*Quando você finalizar por completo, ai sim você pode fazer a junção dessa branch criada (designer), com a branch Master.
 *Você faz essas junções de branch's novas + a master, com o "merge".
 
-*O ideal é você fazer a estrutura basica/fundamental do seu projeto e coloca-lá como Master.
+*O ideal é você fazer a estrutura basica/fundamental do seu projeto e coloca-lá na branch Master. O resto você cria novas branch's ramificações da Master.
 ________
 //GitHub Desktop
 
@@ -24,8 +23,10 @@ file > new repository > create a new repository (Aqui você estará criando um r
 
 publish repository > Publish repository (Aqui você estará enviando seu repositorio local, para a nuvem, no github).
 
-Nome: first commit (recomendado ser em inglês);
-observação: Não é obrigatório;
+branch > new branch > create a branch (Aqui você vai estar criando uma nova Branch).
 
+
+
+_________
 ReadMe.md: É como se fosse um manual de intruções do seu codigo;
 ## = É para simbolizar titulos dentro de uma ReadMe;
